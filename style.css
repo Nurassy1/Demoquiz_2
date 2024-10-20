@@ -1,0 +1,230 @@
+body{ 
+    background-color: rgb(237, 232, 255); 
+    margin: 0; 
+    padding: 0; 
+    min-height: 100vh; 
+    position: relative; 
+} 
+ 
+.header{ 
+    background-color: black; 
+    color: white; 
+    height: 90px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.header_size{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_size p{
+    margin-top: 37px;
+}
+ 
+.center span{
+    margin-top: 35px;
+}
+
+.center{ 
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 30px; 
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: -10px;
+}
+
+button:nth-of-type(1){ 
+    height: 50px;
+    width: 260px; 
+    color: white;
+    font-size: 25px; 
+    background-color: rgb(31, 31, 31); 
+    border: 1px solid rgb(255, 255, 255); 
+    border-radius: 10px; 
+    margin-top: 40px;
+} 
+ 
+button:nth-of-type(2){ 
+    margin-top: 40px;
+    width: 140px;
+    height: 50px;
+    font-size: 25px;
+    background-color: blue; 
+    color: white; 
+    border: none; 
+    border-radius: 10px; 
+} 
+ 
+.help{ 
+    margin-top: 90px;
+    text-align: center; 
+    font-size: 40px;
+} 
+
+.input{
+    margin-top: -30px;
+    margin-bottom: 80px;
+}
+
+input::placeholder{
+    padding-left: 15px;
+}
+ 
+input{ 
+    width: 700px; 
+    height: 55px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+ 
+.box{ 
+    background-color: white; 
+    display: flex; 
+    gap: 140px; 
+    padding: 160px 30px;
+} 
+
+.image img{
+    width: 66px;
+    height: 66px;
+}
+ 
+.column1{ 
+    margin-left: 140px; 
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.column2{  
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+} 
+ 
+.using{ 
+    width: 330px;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+} 
+
+.manage{
+    width: 300px;
+    display: flex;
+    gap: 20px;
+}
+
+.authentic{
+    width: 300px;
+    display: flex;
+    gap: 20px;
+}
+
+.account{
+    width: 300px;
+    display: flex;
+    gap: 20px;
+}
+
+.billing{
+    width: 300px;
+    display: flex;
+    gap: 20px;
+}
+
+.support{
+    width: 300px;
+    display: flex;
+    gap: 20px;
+}
+
+.info{
+    margin-top: -20px;
+}
+ 
+.using p{ 
+    margin-top: -10px; 
+} 
+ 
+.footer{ 
+    font-family: Arial, Helvetica, sans-serif;
+    height: 385px; 
+    background-color: black; 
+    color: white; 
+    display: flex; 
+    gap: 70px; 
+    font-size: 20px;
+    padding-top: 30px; 
+} 
+ 
+.abstract{ 
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+} 
+
+.resourses{ 
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+} 
+
+.community{ 
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+} 
+
+.company{ 
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+} 
+
+.contact{ 
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 140px;
+    right: 493px;
+    font-size: smaller;
+} 
+ 
+.footer p{ 
+    font-size: smaller; 
+} 
+
+ 
+.icon{ 
+    position: absolute; 
+    bottom: 40px; 
+    right: 80px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer button{
+    width: 130px;
+    background-color: blue;
+    color: white;
+    border-radius: 45px;
+    position: fixed;
+    z-index: 100;
+    right: 10px;
+    bottom: 10px;
+}
+
+.footer button:hover{
+    text-decoration: none;
+}
